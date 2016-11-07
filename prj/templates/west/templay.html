@@ -1,0 +1,11 @@
+
+<h1>{{ label }}</h1>
+
+
+{% block mainbody %}
+
+{% for item in staffs %}
+<p>{{ item.id }}, {{ item }}</p> 
+{% endfor %}
+
+{% endblock %}

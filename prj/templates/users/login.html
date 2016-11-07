@@ -1,0 +1,19 @@
+
+<form role="form" action="/users/login/" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Submit">
+</form>
+
+<!--
+<form role="form" action="/users/login/" method="post">
+    {% csrf_token %}
+    <label>Username</label>
+    <input type="text" name="username">
+    <label>Password</label>
+    <input type="password" name="password">
+    <input type="submit" value="Submit">
+</form>
+-->
+
+
